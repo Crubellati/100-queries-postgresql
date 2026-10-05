@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>100 Queries que Todo Desenvolvedor Backend Deveria Saber | PostgreSQL do Básico ao Avançado</title>
+<meta name="description" content="E-book em PDF com 100 queries de PostgreSQL explicadas do básico ao avançado. JOINs, window functions, JSONB, índices, performance e receitas prontas para copiar. 119 páginas.">
+<link rel="preconnect" href="https://hotmart.s3.amazonaws.com">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#topo">
+      <span class="brand-mark">PG</span>
+      <span class="brand-text">100 Queries<span>PostgreSQL</span></span>
+    </a>
+    <nav class="header-nav">
+      <a href="#aprender">O que você aprende</a>
+      <a href="#conteudo">Conteúdo</a>
+      <a href="#autor">Autor</a>
+      <a href="#faq">Dúvidas</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="https://pay.hotmart.com/I107899282B?off=qubdkeu8&hotfeature=51" target="_blank" rel="noopener">Quero o e-book</a>
+  </div>
+</header>
+
+<main id="topo">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">E-book em PDF · Acesso imediato</p>
+        <h1>100 Queries que Todo Desenvolvedor Backend Deveria Saber</h1>
+        <p class="hero-sub">PostgreSQL do básico ao avançado — do primeiro <code>SELECT</code> ao plano de execução.</p>
+        <p class="hero-desc">Domine o banco de dados que sustenta quase todo sistema backend. Este e-book reúne, em um só lugar, as 100 queries de PostgreSQL que você realmente usa no dia a dia, com SQL pronto para copiar e explicado de forma prática: o que a query faz, por que funciona e onde estão as armadilhas.</p>
+        <ul class="hero-points">
+          <li>100 queries numeradas, do básico ao avançado</li>
+          <li>SQL pronto para copiar, testar e adaptar</li>
+          <li>Um schema de e-commerce real do início ao fim</li>
+        </ul>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="https://pay.hotmart.com/I107899282B?off=qubdkeu8&hotfeature=51" target="_blank" rel="noopener">Quero dominar o PostgreSQL</a>
+          <span class="safe-note">Compra segura pela Hotmart · Acesso imediato</span>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="cover-card">
+          <img src="https://hotmart.s3.amazonaws.com/product_pictures/e1b2616b-7d8d-494e-bcee-7dd70142d72e/imagemproduto600.png"
+               alt="Capa do e-book 100 Queries que Todo Desenvolvedor Backend Deveria Saber — PostgreSQL"
+               width="600" height="600" loading="eager">
+        </div>
+        <p class="cover-caption">PDF · 119 páginas · leitura em tela e impressão</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="wrap stats-grid">
+      <div class="stat"><strong>100</strong><span>queries numeradas</span></div>
+      <div class="stat"><strong>119</strong><span>páginas</span></div>
+      <div class="stat"><strong>20</strong><span>capítulos</span></div>
+      <div class="stat"><strong>10</strong><span>partes temáticas</span></div>
+      <div class="stat"><strong>PDF</strong><span>acesso imediato</span></div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="section section-alt" id="problema">
+    <div class="wrap narrow">
+      <p class="eyebrow center">Por que este material existe</p>
+      <h2 class="center">Saber SQL não basta. O que separa é saber o SQL <em>certo</em>.</h2>
+      <p class="lead center">Você já passou por alguma destas situações?</p>
+      <ul class="pain-list">
+        <li>A query “funciona”, mas traz resultados sutilmente errados — por causa de <code>NULL</code> ou de um join mal colocado.</li>
+        <li>Um relatório demora segundos porque ninguém olhou o plano de execução nem criou o índice certo.</li>
+        <li>Você trava em window functions, CTEs recursivas ou consultas com JSONB.</li>
+        <li>Cada consulta nova vira tentativa e erro, sem um repertório de soluções prontas.</li>
+      </ul>
+      <p class="lead center continuation">Este e-book é o repertório que faltava: 100 queries que resolvem problemas reais, explicadas com o <strong>porquê</strong> — para você aprender a pensar em conjuntos, não a decorar sintaxe.</p>
+    </div>
+  </section>
+
+  <!-- APRENDER -->
+  <section class="section" id="aprender">
+    <div class="wrap">
+      <p class="eyebrow center">O que você vai aprender</p>
+      <h2 class="center">Do fundamento à engenharia de performance</h2>
+      <div class="learn-grid">
+        <article class="learn-card"><h3>Filtros e ordenação</h3><p>Filtrar, ordenar e tratar <code>NULL</code> sem resultados enganosos.</p></article>
+        <article class="learn-card"><h3>Junções</h3><p>Dominar todos os <code>JOIN</code>s, incluindo <code>LATERAL</code> e anti-joins.</p></article>
+        <article class="learn-card"><h3>Agregações</h3><p>Agrupar com <code>GROUP BY</code>, <code>FILTER</code>, <code>ROLLUP</code> e <code>CUBE</code>.</p></article>
+        <article class="learn-card"><h3>Subqueries e CTEs</h3><p>Subqueries e CTEs, incluindo recursão para hierarquias.</p></article>
+        <article class="learn-card"><h3>Window functions</h3><p>Rankings, <code>LAG</code>/<code>LEAD</code>, totais acumulados e gaps and islands.</p></article>
+        <article class="learn-card"><h3>JSONB e arrays</h3><p>Modelagem flexível com JSONB e arrays nativos, com índice GIN.</p></article>
+        <article class="learn-card"><h3>Busca textual</h3><p>Full-text search e similaridade com trigramas.</p></article>
+        <article class="learn-card"><h3>Tipos avançados</h3><p>UUID, ENUM, ranges, domains e constraints.</p></article>
+        <article class="learn-card"><h3>Índices</h3><p>B-tree, parciais, de expressão, GIN e GiST — quando cada um resolve.</p></article>
+        <article class="learn-card"><h3>Performance</h3><p><code>EXPLAIN ANALYZE</code>, <code>pg_stat_statements</code> e vacuum na prática.</p></article>
+        <article class="learn-card"><h3>Transações e locks</h3><p>Níveis de isolamento, locks e <code>SKIP LOCKED</code> para filas.</p></article>
+        <article class="learn-card"><h3>Upserts</h3><p><code>ON CONFLICT</code>, <code>MERGE</code> e tratamento de deadlocks.</p></article>
+        <article class="learn-card"><h3>Receitas avançadas</h3><p>Pivô, deduplicação, amostragem e fusos horários.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTEUDO -->
+  <section class="section section-alt" id="conteudo">
+    <div class="wrap inside-grid">
+      <div class="inside-copy">
+        <p class="eyebrow">O que tem dentro</p>
+        <h2>119 páginas organizadas em 10 partes</h2>
+        <p>Cada capítulo agrupa queries de um mesmo tema, na ordem em que fazem sentido. Você pode ler do começo ao fim para evoluir de nível — ou usar como referência no trabalho.</p>
+        <ol class="parts-list">
+          <li><span class="part-n">I</span> Fundamentos de consulta <em>(Q1–10)</em></li>
+          <li><span class="part-n">II</span> Junções e relacionamentos <em>(Q11–20)</em></li>
+          <li><span class="part-n">III</span> Agregações e agrupamentos <em>(Q21–30)</em></li>
+          <li><span class="part-n">IV</span> Subqueries e CTEs <em>(Q31–40)</em></li>
+          <li><span class="part-n">V</span> Window functions <em>(Q41–50)</em></li>
+          <li><span class="part-n">VI</span> JSONB, arrays e busca textual <em>(Q51–60)</em></li>
+          <li><span class="part-n">VII</span> Modelagem e tipos avançados <em>(Q61–70)</em></li>
+          <li><span class="part-n">VIII</span> Índices e performance <em>(Q71–80)</em></li>
+          <li><span class="part-n">IX</span> Transações, concorrência e integridade <em>(Q81–90)</em></li>
+          <li><span class="part-n">X</span> Receitas avançadas e operação <em>(Q91–100)</em></li>
+        </ol>
+      </div>
+      <aside class="inside-aside">
+        <div class="sample-card">
+          <div class="sample-head">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="sample-title">exemplo · window function</span>
+          </div>
+<pre><code><span class="kw">SELECT</span> cliente_id, total,
+       <span class="fn">row_number</span>() <span class="kw">OVER</span> (
+         <span class="kw">PARTITION BY</span> cliente_id
+         <span class="kw">ORDER BY</span> criado_em <span class="kw">DESC</span>
+       ) <span class="kw">AS</span> posicao
+<span class="kw">FROM</span> pedidos;</code></pre>
+          <p class="sample-note">Cada query vem com objetivo, código comentado, o resultado esperado e as pegadinhas comuns.</p>
+        </div>
+        <div class="aside-badges">
+          <span class="mini-badge">SQL pronto para copiar</span>
+          <span class="mini-badge">Schema real de exemplo</span>
+          <span class="mini-badge">Apêndice para reproduzir tudo</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- POR QUE E DIFERENTE -->
+  <section class="section" id="diferente">
+    <div class="wrap">
+      <p class="eyebrow center">Por que este material é diferente</p>
+      <h2 class="center">Prático de verdade, sem enrolação</h2>
+      <div class="diff-grid">
+        <div class="diff-item"><span class="check">✓</span><div><h3>100 queries numeradas</h3><p>Cada uma com objetivo, código e observações — direto ao ponto.</p></div></div>
+        <div class="diff-item"><span class="check">✓</span><div><h3>Do básico ao avançado</h3><p>Uma sequência que evolui, com exemplos “antes/depois”.</p></div></div>
+        <div class="diff-item"><span class="check">✓</span><div><h3>Schema real do início ao fim</h3><p>Um e-commerce de exemplo, com apêndice para reproduzir tudo.</p></div></div>
+        <div class="diff-item"><span class="check">✓</span><div><h3>Foco no “porquê”</h3><p>Você aprende a pensar em conjuntos, não a decorar sintaxe.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUEM -->
+  <section class="section section-alt" id="publico">
+    <div class="wrap narrow">
+      <p class="eyebrow center">Para quem é</p>
+      <h2 class="center">Feito para quem vive de backend e dados</h2>
+      <div class="audience-grid">
+        <div class="audience-card">
+          <h3>É para você se…</h3>
+          <ul class="tick-list">
+            <li>Você é desenvolvedor backend, full-stack ou de dados</li>
+            <li>Já usa PostgreSQL (ou qualquer banco relacional) e quer subir de nível</li>
+            <li>Quer escrever consultas mais rápidas, corretas e legíveis</li>
+            <li>Precisa de uma referência rápida no dia a dia</li>
+          </ul>
+        </div>
+        <div class="audience-card muted">
+          <h3>Talvez não seja se…</h3>
+          <ul>
+            <li>Você procura um curso em vídeo passo a passo</li>
+            <li>Nunca escreveu um <code>SELECT</code> na vida e quer começar do absoluto zero</li>
+            <li>Busca conteúdo sobre administração avançada de servidores</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTOR -->
+  <section class="section" id="autor">
+    <div class="wrap author-wrap">
+      <div class="author-avatar" aria-hidden="true">RC</div>
+      <div class="author-copy">
+        <p class="eyebrow">Autor</p>
+        <h2>Ricardo Crubellati</h2>
+        <p>Ricardo Crubellati é um profissional de TI experiente, com expertise em desenvolvimento frontend e backend. Especialista em desenvolvimento full-stack, possui profundo conhecimento em diversas linguagens de programação, com destaque para Java em aplicações web.</p>
+        <p>Neste e-book, ele reúne a experiência de quem usa bancos relacionais todos os dias para entregar um material direto: as queries que realmente importam, explicadas de forma clara e aplicável.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt" id="faq">
+    <div class="wrap narrow">
+      <p class="eyebrow center">Dúvidas frequentes</p>
+      <h2 class="center">Perguntas e respostas</h2>
+      <div class="faq">
+        <details>
+          <summary>Como recebo o e-book após a compra?</summary>
+          <p>A entrega é digital e imediata, feita pela Hotmart. Assim que o pagamento é confirmado, você acessa o PDF na sua conta e por e-mail.</p>
+        </details>
+        <details>
+          <summary>É um PDF? Posso ler no celular ou imprimir?</summary>
+          <p>Sim. O e-book está em PDF, formatado para leitura em tela (computador, tablet e celular) e também para impressão em folha A4.</p>
+        </details>
+        <details>
+          <summary>Preciso já saber PostgreSQL para aproveitar?</summary>
+          <p>Ajuda ter contato com SQL. O livro começa nos fundamentos e avança até tópicos avançados, então serve tanto para quem está consolidando a base quanto para quem quer aprofundar.</p>
+        </details>
+        <details>
+          <summary>Serve para quem usa MySQL ou SQL Server?</summary>
+          <p>O foco é PostgreSQL, mas boa parte das queries e dos conceitos de SQL é aplicável a outros bancos relacionais. Recursos específicos do PostgreSQL são destacados ao longo do material.</p>
+        </details>
+        <details>
+          <summary>Quantas páginas e capítulos tem?</summary>
+          <p>São 119 páginas, 20 capítulos organizados em 10 partes temáticas, com 100 queries numeradas.</p>
+        </details>
+        <details>
+          <summary>E se eu não gostar?</summary>
+          <p>A compra é processada pela Hotmart, que oferece garantia de 7 dias. Se não fizer sentido para você, é possível solicitar o reembolso dentro desse prazo.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final-cta">
+    <div class="wrap narrow center">
+      <h2>Pronto para escrever consultas que realmente resolvem?</h2>
+      <p>Comece hoje a pensar como o banco de dados pensa. 100 queries, 119 páginas, do básico ao avançado — com SQL pronto para copiar.</p>
+      <a class="btn btn-primary btn-lg" href="https://pay.hotmart.com/I107899282B?off=qubdkeu8&hotfeature=51" target="_blank" rel="noopener">Quero o meu e-book agora</a>
+      <p class="safe-note">Compra segura pela Hotmart · Acesso imediato · Garantia de 7 dias</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">PG</span>
+      <p><strong>100 Queries que Todo Desenvolvedor Backend Deveria Saber</strong><br>PostgreSQL do básico ao avançado</p>
+    </div>
+    <div class="footer-links">
+      <a href="#aprender">O que você aprende</a>
+      <a href="#conteudo">Conteúdo</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="https://pay.hotmart.com/I107899282B?off=qubdkeu8&hotfeature=51" target="_blank" rel="noopener">Comprar</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© 2026 Ricardo Crubellati. Todos os direitos reservados.</p>
+    <p class="disclaimer">Este material não possui vínculo com o PostgreSQL Global Development Group. Pagamento e entrega processados pela Hotmart.</p>
+  </div>
+</footer>
+
+</body>
+</html>
