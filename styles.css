@@ -73,6 +73,9 @@ em{ font-style:italic; }
 .btn-sm{ padding:11px 20px; font-size:.92rem; }
 .btn-lg{ padding:17px 34px; font-size:1.05rem; }
 .safe-note{ display:block; margin-top:.85rem; font-size:.85rem; color:var(--muted); }
+.price-tag{ display:inline-flex; align-items:baseline; gap:.5rem; margin:0 0 1.1rem; }
+.price-tag b{ font-size:1.9rem; font-weight:800; color:#fff; }
+.price-tag span{ font-size:.9rem; color:#9fc0e6; }
 
 /* ---------- HEADER ---------- */
 .site-header{
